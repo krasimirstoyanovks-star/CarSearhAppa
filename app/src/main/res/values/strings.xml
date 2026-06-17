@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Car Search App</string>
+    <string name="search_title">Търсене на автомобил</string>
+    <string name="vin_hint">Въведи VIN номер</string>
+    <string name="btn_search">Търси</string>
+    <string name="error_vin_length">VIN трябва да е 17 символа</string>
+    <string name="error_not_found">Не е намерено превозно средство</string>
+    <string name="error_network">Грешка при връзката</string>
+    <string name="label_make">Марка: </string>
+    <string name="label_model">Модел: </string>
+    <string name="label_year">Година: </string>
+    <string name="label_engine">Двигател: </string>
+    <string name="label_fuel">Гориво: </string>
+    <string name="result_header">Информация за автомобила</string>
+    <string name="history_header">Последно търсени</string>
+    <string name="btn_find_parts">Търси части за този модел</string>
+    <string name="parts_header">Налични авточасти</string>
+    <string name="parts_categories_all">Всички части</string>
+    <string name="garage_header">Моят Гараж</string>
+    <string name="btn_save_garage">Запази в гаража</string>
+    <string name="msg_saved_garage">Автомобилът е добавен в гаража!</string>
+    <string name="action_clear_history">Изчисти историята</string>
+    <string name="action_about">За приложението</string>
+    <string name="about_message">Това приложение е разработено като дипломен проект за търсене на автомобилни части по VIN.</string>
+    <string name="action_contact">Контакти</string>
+    <string name="contact_title">Контакти и обратна връзка</string>
+    <string name="contact_header">Свържете се с нас</string>
+    <string name="contact_phone">Телефон: +359 888 123 456</string>
+    <string name="contact_email">Имейл: support@carsearch.bg</string>
+    <string name="feedback_header">Изпратете съобщение</string>
+    <string name="hint_name">Вашето име</string>
+    <string name="hint_feedback">Вашето съобщение</string>
+    <string name="btn_send">Изпрати</string>
+    <string name="error_fields">Моля попълнете всички полета</string>
+    <string name="feedback_success">Благодарим за обратната връзка, %s!</string>
+    <string name="welcome_user">Здравей, %s!</string>
+    <string name="profile_prompt">Влезте, за да запазите вашите данни</string>
+    <string name="btn_login">ВХОД</string>
+
+    <string name="service_log_title">Сервизна книжка</string>
+    <string name="important_dates">Важни дати</string>
+    <string name="insurance_expiry_label">Застраховка до: %s</string>
+    <string name="inspection_expiry_label">ГТП до: %s</string>
+    <string name="oil_change_label">Следваща смяна: %1$s или %2$s км</string>
+    <string name="consumption_label">Среден разход: %1$s (%2$s л / %3$s км)</string>
+    <string name="not_set">Не е зададено</string>
+    <string name="service_history">История на обслужване</string>
+    <string name="btn_add_record">Добави запис</string>
+    <string name="btn_buy">Купи сега</string>
+    <string name="payment_title">Плащане</string>
+    <string name="payment_success">Плащането беше успешно!</string>
+    <string name="payment_failed">Грешка при плащането: %s</string>
+    <string name="action_nearby_services">Сервизи наблизо</string>
+    <string name="action_gas_stations">Бензиностанции</string>
+    <string name="action_ev_charging">Зарядни станции</string>
+
+    <string-array name="parts_categories">
+        <item>@string/parts_categories_all</item>
+        <item>Консумативи</item>
+        <item>Спирачна система</item>
+        <item>Двигател</item>
+        <item>Масла</item>
+        <item>Окачване</item>
+        <item>Електрическа система</item>
+    </string-array>
+</resources>
